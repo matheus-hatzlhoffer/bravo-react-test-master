@@ -1,0 +1,62 @@
+.choose-pokemon {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+.pokemons-to-choose {
+  width: 45%;
+  height: 80vh;
+  border: solid black 1px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.drag-card {
+  height: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+.drag-card h6 {
+  margin: 0;
+}
+
+.disp-none {
+  display: none;
+}
+
+.basket {
+  width: 45%;
+  border: dotted 2px;
+  height: 80vh;
+  position: relative;
+}
+
+.basket button {
+  position: absolute;
+  background: transparent;
+  border: none;
+  font-weight: 800;
+}
+
+.drop-message {
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(109, 109, 109, 0.7);
+}
+
+.drop-message p {
+  margin: 0;
+  align-self: center;
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: 800;
+}
